@@ -1,0 +1,247 @@
+<main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <p>Services__________</p>
+        <h2>What we Do Offer!</h2>
+        
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/img 3.avif" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>IELTS Prepration</h3>
+                <p>Familiarize with exam format,improve English skills,use official IELTS materials.Practice sample questions, 
+                  take mock tests,improve time management.Focus on weaknesses, 
+                  get feedback for improvement.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/img 4.avif" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                  
+                </div>
+
+                <h3>PTE Prepration</h3>
+                <p>PTE Academic is a computer-based English proficiency test for non-native speakers. 
+                  It assesses academic language skills.It is taken by those applying to study in an English-speaking environment. 
+                 Recognized worldwide by institutions. Universities, colleges, and governmentsaccept PTE Academic as a valid language test.
+
+                </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets/img/img 5.avif" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>OET Prepration</h3>
+                <p> OET: English test for healthcare professionals 
+                  aiming to work or study in an English environment. 
+                  Focuses on workplace communication skills.
+               
+                Tailored for healthcare contexts, 
+                  assesses language proficiency. 
+                  Vital for success in the medical field.
+               
+         Designed to ensure effective communication 
+                  in an English-speaking work setting. 
+                  Ideal for aspiring healthcare workers.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="" class="img-fluid" alt="">
+                    <span></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class=""></i>
+                    
+                    <i ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/img 1.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>English Language Courses</h3>
+                <p>
+                  English language course enhances proficiency for non-native speakers.Personal, 
+                  academic, or professional goals. Suitable for learners at all levels. Covers grammar, 
+                  vocabulary, reading, writing, speaking, and listening skills.Tailored to individual needs,
+                  promotes comprehensive language development.Enriches personal, academic, and career prospects.
+                </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item--><div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/img 2.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>English Proficiency Course</h3>
+                <p>An English proficiency course is designed to help individuals improve their overall 
+                  proficiency in the English language, particularly for those who are non-native English 
+                  speakers. The course aims to develop the individual's ability to read, write, speak, 
+                  and understand English with greater fluency and accuracy.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/events-2.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>Business Communuication Courses</h3>
+                <p>A Business Communication course is designed to help individuals develop effective communication skills for the workplace. The course is geared towards professionals who need to communicate effectively with colleagues, clients, and customers in a business environment..</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/hero-bg.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722;"><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>Business Communuication Courses</h3>
+                <p>A Business Communication course is designed to help individuals develop effective communication skills for the workplace. The course is geared towards professionals who need to communicate effectively with colleagues, clients, and customers in a business environment..</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/img 7.avif" style="height: 235px;" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 style="background-color: #f26722; "><a style="color: white;" href="course-details.html">Register Now!</a></h4>
+                </div>
+
+                <h3>Business Communuication Courses</h3>
+                <p>A Business Communication course is designed to help individuals develop effective communication skills for the workplace. The course is geared towards professionals who need to communicate effectively with colleagues, clients, and customers in a business environment..</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    
+                    
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    
+                    
+                    <i class=""></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+
+          
+        </div>
+
+      </div>
+    </section><!-- End Courses Section -->
+
+  </main><!-- End #main -->

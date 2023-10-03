@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultation Form</title>
+    <link
+      rel="stylesheet"
+      
+      href="https://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/consultationForm.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12">
+        <form action="/thegateway.pk/gslpak/consultationForm.php" method="post">
+          <h1>Consultation Form</h1>
+
+          <fieldset>
+            <label for="fullName">Full Name(In Capital):</label>
+            <input type="text" id="fullName" name="fullName" required/>
+
+            <label for="gname">Father/Guardian Name  </label>
+            <input type="text" id="gname" name="gname" required/>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" maxlength="11" required/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required/>
+
+            <label for="cnic">CNIC:</label>
+            <input type="cnic" id="cnic" name="cnic"  maxlength="13" required/>
+            
+            
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required/>
+
+            <label for="reference">Reference:</label>
+            <input type="text" id="reference" name="reference" />
+          
+
+          <button type="submit" name="submit_btn" class="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+

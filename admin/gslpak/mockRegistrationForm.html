@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mock Test Registration</title>
+    <link rel="stylesheet" href="css/mockRegistration.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Mock Test Registration</div>
+      <div class="content">
+        <form action="mockRegistrationForm.php" method="post">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" name="fullName" required />
+            </div>
+            <div class="input-box">
+              <span class="details">CNIC</span>
+              <input type="text" name="cnic" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="text" name="phoneNumber" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" name="email" required />
+            </div>
+          </div>
+          <div class="test_details">
+            <span class="test_type">Test Type</span>
+            <div class="category">
+              <label for="ielts-option" onclick="toggleIeltsFields()">
+                <input
+                  type="radio"
+                  name="testType"
+                  id="ielts-option"
+                  value="IELTS"
+                  required
+                />
+                <span class="ielts">IELTS</span>
+                <span
+                  class="option-circle"
+                  onclick="toggleIeltsFields()"
+                ></span>
+              </label>
+              <label for="oet-option" onclick="toggleOetFields()">
+                <input
+                  type="radio"
+                  name="testType"
+                  id="oet-option"
+                  value="OET"
+                  required
+                />
+                <span class="oet">OET</span>
+                <span class="option-circle" onclick="toggleOetFields()"></span>
+              </label>
+              <label for="pte-option" onclick="togglePteFields()">
+                <input
+                  type="radio"
+                  name="testType"
+                  id="pte-option"
+                  value="PTE"
+                  required
+                />
+                <span class="pte">PTE</span>
+                <span class="option-circle" onclick="togglePteFields()"></span>
+              </label>
+            </div>
+            <div class="input-box ielts-fields" style="display: none">
+              <label>
+                <input
+                  type="radio"
+                  name="ielts_type"
+                  value="General Training"
+                />
+                General Training
+              </label>
+            </div>
+            <div class="input-box ielts-fields" style="display: none">
+              <label>
+                <input type="radio" name="ielts_type" value="Academic" />
+                Academic
+              </label>
+            </div>
+            <div class="input-box ielts-fields" style="display: none">
+              <label>
+                <input type="radio" name="ielts_type" value="Life Skills A1" />
+                Life Skills A1
+              </label>
+            </div>
+            <div class="input-box oet-fields" style="display: none">
+              <label>
+                <input type="radio" name="oet_type" value="Nursing" />
+                Nursing
+              </label>
+            </div>
+            <div class="input-box oet-fields" style="display: none">
+              <label>
+                <input type="radio" name="oet_type" value="Medicine" />
+                Medicine
+              </label>
+            </div>
+            <div class="input-box oet-fields" style="display: none">
+              <label>
+                <input type="radio" name="oet_type" value="Others" />
+                Others
+              </label>
+            </div>
+            <div class="input-box pte-fields" style="display: none">
+              <label>
+                <input type="radio" name="pte_type" value="UKVI" />
+                UKVI
+              </label>
+            </div>
+            <div class="input-box pte-fields" style="display: none">
+              <label>
+                <input type="radio" name="pte_type" value="Standard" />
+                Standard
+              </label>
+            </div>
+            <span class="test_type">Test Mode</span>
+            <div>
+              <label>
+                <input type="radio" name="testMode" value="Paper Based" />
+                Paper Based
+              </label>
+              <label>
+                <input type="radio" name="testMode" value="Computer Based" />
+                Computer Based
+              </label>
+            </div>
+            <div class="button">
+              <input
+                type="submit"
+                name="submit_btn"
+                onclick="checkButton()"
+                value="Register"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/mockRegistration.js"></script>
+  </body>
+</html>

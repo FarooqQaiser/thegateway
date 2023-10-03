@@ -1,0 +1,360 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment Form</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/assessmentForm.css" />
+  </head>
+  <body>
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+        <form action="assessmentForm.php" method="POST">
+          <div class="formbold-steps">
+            <ul>
+              <li class="formbold-step-menu1 active">
+                <span>1</span>
+                Personal Details
+              </li>
+              <li class="formbold-step-menu2">
+                <span>2</span>
+                Academic/Professional Details
+              </li>
+              <li class="formbold-step-menu3">
+                <span>3</span>
+                Confirmation
+              </li>
+            </ul>
+          </div>
+
+          <div class="formbold-form-step-1 active">
+            <div class="formbold-input-flex">
+              <div>
+                <label for="fullName" class="formbold-form-label">
+                  Full Name(In Capital):
+                </label>
+                <input
+                  type="text"
+                  name="fullName"
+                  id="fullName"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div>
+                <label for="fatherName" class="formbold-form-label">
+                  Father / Guardian Name:
+                </label>
+                <input
+                  type="text"
+                  name="fatherName"
+                  id="fatherName"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="phone" class="formbold-form-label"> Phone: </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div>
+                <label for="email" class="formbold-form-label">
+                  Email Address:
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="cnic" class="formbold-form-label"> CNIC: </label>
+                <input
+                  type="cnic"
+                  name="cnic"
+                  id="cnic"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div>
+                <label for="city" class="formbold-form-label"> City:: </label>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="reference" class="formbold-form-label">
+                  Reference:
+                </label>
+                <input
+                  type="text"
+                  name="reference"
+                  id="reference"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="formbold-form-step-2">
+            <div>
+              <label for="message" class="formbold-form-label"
+                ><b> Academic Background</b>
+              </label>
+              <div class="formbold-input-flex">
+                <div>
+                  <label for="degreeName" class="formbold-form-label">
+                    Degree Name:
+                  </label>
+                  <input
+                    type="text"
+                    name="degreeName"
+                    id="degreeName"
+                    class="formbold-form-input"
+                  />
+                </div>
+                <div>
+                  <label for="grade" class="formbold-form-label">
+                    Grade:
+                  </label>
+                  <input
+                    type="text"
+                    name="grade"
+                    id="grade"
+                    class="formbold-form-input"
+                  />
+                </div>
+                <div>
+                  <label for="year" class="formbold-form-label"> Year: </label>
+                  <input
+                    type="text"
+                    name="year"
+                    id="year"
+                    class="formbold-form-input"
+                  />
+                </div>
+              </div>
+              <div>
+                <label for="university" class="formbold-form-label">
+                  Institute/University:
+                </label>
+                <input
+                  type="text"
+                  name="university"
+                  id="university"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label for="message" class="formbold-form-label"
+                ><b> Professional Details/Work Experience(If any)</b>
+              </label>
+              <div>
+                <label for="organizationName" class="formbold-form-label">
+                  Name of Organization:
+                </label>
+                <input
+                  type="text"
+                  name="organizationName"
+                  id="organizationName"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div class="formbold-input-flex">
+                <div>
+                  <label for="designation" class="formbold-form-label">
+                    Designation:
+                  </label>
+                  <input
+                    type="text"
+                    name="designation"
+                    id="designation"
+                    class="formbold-form-input"
+                  />
+                </div>
+                <div>
+                  <label for="period" class="formbold-form-label">
+                    Period:
+                  </label>
+                  <input
+                    type="text"
+                    name="period"
+                    id="period"
+                    class="formbold-form-input"
+                  />
+                </div>
+              </div>
+            </div>
+            <label for="message" class="formbold-form-label"
+              ><b> Country of Interests(any 3)</b>
+            </label>
+            <fieldset>
+              <fieldset>
+                <label>Country of Interests (any 3):</label>
+                <label class="light" for="country1">UK</label>
+                <input
+                  type="checkbox"
+                  id="country1"
+                  value="UK"
+                  name="UK"
+                /><br />
+                <label class="light" for="country2">Australia</label>
+                <input
+                  type="checkbox"
+                  id="country2"
+                  value="Australia"
+                  name="Australia"
+                /><br />
+                <label class="light" for="country3">Canada</label>
+                <input
+                  type="checkbox"
+                  id="country3"
+                  value="Canada"
+                  name="Canada"
+                /><br />
+                <label class="light" for="country4">USA</label>
+                <input
+                  type="checkbox"
+                  id="country4"
+                  value="USA"
+                  name="USA"
+                /><br />
+                <label class="light" for="othercountry">Other:</label>
+                <input
+                  type="text"
+                  id="othercountry"
+                  name="Other"
+                  class="formbold-form-input"
+                /><br />
+                <p id="country-validation-error" class="error-message"></p>
+              </fieldset>
+            </fieldset>
+
+            <fieldset>
+              <label>Any visa Rejection:</label>
+              <label class="light" for="visa">Yes</label>
+              <input
+                type="radio"
+                id="visaRejectionAny"
+                value="Yes"
+                name="visaRejectionAny"
+              /><br />
+              <label
+                for="reasonVR"
+                value="reasonVR"
+                class="formbold-form-label"
+              >
+                If yes give reason
+              </label>
+              <input
+                type="text"
+                name="reasonVR"
+                id="reasonVR"
+                class="formbold-form-input"
+              />
+              <label class="light" for="visa">No</label>
+              <input
+                type="radio"
+                id="visaRejectionNo"
+                value="No"
+                name="visaRejectionAny"
+              /><br />
+            </fieldset>
+          </div>
+
+          <div class="formbold-form-step-3">
+            <div class="formbold-form-confirm">
+              <p>Click Submit button for submitting application</p>
+            </div>
+          </div>
+
+          <div class="formbold-form-btn-wrapper">
+            <button class="formbold-back-btn">Back</button>
+            <!--  
+            <button
+              class="formbold-btn submit-btn"
+              type="submit"
+              name="submit_btnn"
+            >
+              Next Step
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1675_1807)">
+                  <path
+                    d="M10.7814 7.33312L7.20541 3.75712L8.14808 2.81445L13.3334 7.99979L8.14808 13.1851L7.20541 12.2425L10.7814 8.66645H2.66675V7.33312H10.7814Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1675_1807">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button> -->
+            <button
+              class="formbold-btn submit-btnn"
+              type="submit"
+              name="submit_btn"
+            >
+              register
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/assessmentForm.js"></script>
+    <script>
+      const countryCheckboxes = document.querySelectorAll(
+        'input[name="countriesOfInterest"]'
+      );
+      const maxCountrySelections = 3;
+
+      // Event listener for checkboxes
+      countryCheckboxes.forEach((checkbox) => {
+        checkbox.addEventListener("change", () => {
+          const selectedCountries = document.querySelectorAll(
+            'input[name="countriesOfInterest"]:checked'
+          );
+          if (selectedCountries.length > maxCountrySelections) {
+            checkbox.checked = false; // Prevent checking more than allowed
+            document.getElementById("country-validation-error").textContent =
+              "You can select up to 3 countries.";
+          } else {
+            document.getElementById("country-validation-error").textContent =
+              "";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Form</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,300"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/jobForm.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12">
+        <form action="jobform.php" method="post" enctype="multipart/form-data">
+          <h1>Job Form</h1>
+
+          <fieldset>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required />
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="coverLetter">Cover Letter (Max 250 Words):</label>
+            <textarea
+              rows="4"
+              cols="50"
+              id="coverLetter"
+              name="coverLetter"
+              required
+            ></textarea>
+
+            <input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+            <!-- 5MB max file size -->
+
+            <input type="file" id="file" name="file" required />
+
+            <button type="submit" name="submit_btn" class="submit" id="submit">
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
